@@ -8,7 +8,7 @@ import StarBorderIcon from '@material-ui/icons/StarBorder';
 import MentorImage1 from '../../assets/mentor1.png';
 import MentorImage2 from '../../assets/mentor2.png';
 import MentorImage3 from '../../assets/mentor3.png';
-import '../mentors/Mentors.css'
+import './Mentors.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {

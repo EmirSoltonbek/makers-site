@@ -55,3 +55,14 @@ margin: 35px 0px 25px 0px;
     background-color: #FF784F;
     margin: 12px 0px;
 }
+@media(max-width:1400px){
+    .contain{
+        justify-content: space-around;
+    }
+}
+@media(max-width:992px){
+    .card{
+        margin: 0 auto;
+        padding:0px 10px;
+    }
+}

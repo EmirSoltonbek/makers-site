@@ -1,16 +1,11 @@
 import React from 'react'
-import Header from './components/navbar/Header'
-import Slider from './components/slider/Slider'
-import Schedules from './components/schedules/Schedules'
-import Mentors from './components/mentors/Mentors'
+import HomePage from './pages/HomePage'
+
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Slider/>
-      <Schedules/>
-      <Mentors/>
+      <HomePage/>
     </div>
   )
 }

@@ -1,0 +1,39 @@
+.feedback-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #2B59C3;
+    padding: 30px;
+    border-radius: 10px;
+}
+.feedback-card h3{
+font-size: 26px;
+font-weight: 700;
+color: white;
+}
+.feedback-card h6{
+    color: #E0E5ED;
+    font-size: 20px;
+    font-weight: 500;
+}
+.feedback-card form{
+display: flex;
+flex-direction: column;
+}
+.feedback-card form label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #E0E5ED;
+    margin-top: 20px;
+    }
+    .feedback-card form input{
+        height: 50px;
+        border-radius: 10px;
+        border: 1px #E0E5ED solid;
+        }
+.feedback-card form button{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF784F;
+    margin-top: 35px;
+    }
