@@ -1,0 +1,57 @@
+.newSchedules{
+font-size: 20px;
+font-weight: 600;
+margin: 35px 0px 25px 0px;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.card{
+    width: 380px;
+    display: flex;
+    padding: 20px;
+}
+.favorite-icon{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.card .card-image{
+    width: 127px;
+    margin: 5% auto 0px auto;
+}
+.card h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+.card p {
+    font-size: 12px;
+    color: #767E8C;
+    font-weight: 600;
+}
+.card .info{
+    font-size: 12px;
+    color: #767E8C;
+    font-weight: 600;
+    margin: 0px 5px 0px 12px
+}
+.card .info-text{
+    font-size: 12px;
+    color: #1B1C1F;
+    font-weight: 600;
+}
+.card-btn{
+    width: 183px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #FF784F;
+    margin: 12px 0px;
+}
